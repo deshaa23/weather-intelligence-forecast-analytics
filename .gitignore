@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+
+# Keep the example configuration
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+logs/*.log
+
+# Generated raw and processed datasets
+data/raw/*
+data/processed/*.csv
+
+# Operating system files
+.DS_Store
+Thumbs.db
