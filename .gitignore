@@ -21,3 +21,18 @@ data/processed/*.csv
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Generated raw weather data
+data/raw/
+
+# Generated processed datasets
+data/processed/
+
+# Execution logs
+logs/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
